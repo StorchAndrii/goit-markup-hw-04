@@ -4,8 +4,10 @@
 }
 .footer-container {
   display: flex;
-  align-items: center;
-  gap: 120px;
+  align-items: flex-start;
+}
+.footer-info {
+  margin-right: 120px;
 }
 .footer-logo {
   font-weight: 700;
@@ -45,6 +47,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  color: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials-link:hover,
@@ -53,4 +56,5 @@
 }
 .footer-socials-icon {
   display: block;
+  fill: currentColor;
 }
